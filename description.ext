@@ -1,0 +1,30 @@
+#include "R3F_logistics\desc_include.h"
+#include "resources\missionparams.hpp"
+#include "resources\Common.hpp"
+//#include "core\resources\RscTitles.hpp"
+#include "artillery\UI\artilleryUI.hpp"
+//#include "score\scoreBoard\scoreBoard.hpp"
+#include "fortification_manager\dialog.hpp"
+#include "C2C\imagery\satView.hpp"
+
+//----- RScTitles below
+class RscTitles{
+	#include "weaponresting\dialog.hpp"
+};
+
+respawn = "BASE";
+respawndelay = 5;
+AIkills = 0;
+disabledAI = 1;
+ShowGPS = 1;
+
+onLoadMission="Arma Wargames";
+
+class Header{
+	gameType = Team;
+	minPlayers = 1;
+	maxPlayers = 100;
+};
+
+disableChannels[]={0,6};
+enableItemsDropping = 0;

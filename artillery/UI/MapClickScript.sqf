@@ -1,0 +1,1 @@
+onMapSingleClick "[_pos] execVM ""artillery\UI\MapScript.sqf""; onMapSingleClick""""";

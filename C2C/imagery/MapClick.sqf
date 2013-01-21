@@ -1,0 +1,1 @@
+//onMapSingleClick "[_pos] execVM ""C2C\MapScript.sqf""; onMapSingleClick""""";
